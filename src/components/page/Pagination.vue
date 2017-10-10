@@ -21,15 +21,15 @@
       <li v-on:click="goPage(max)">
         <a>尾页</a>
       </li>
-      <li>
+      <!-- 跳转页码,后期开放 -->
+      <!-- <li>
         <a style="padding: 5.5px 0;">
           <input type="text" v-on:keyup.enter="customGoTopaging" v-model="paging.customNumber" style="width: 30px;padding: 2px;border: 0;text-align: center;" />
         </a>
       </li>
       <li>
         <a v-on:click="customGoTopaging">跳转</a>
-      </li>
-
+      </li> -->
     </ul>
   </div>
 </template>
